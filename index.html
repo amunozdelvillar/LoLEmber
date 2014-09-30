@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/libs/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header id="navbar" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <h1 class="navbar-header">
+                    <a class="navbar-brand" href="#">LoL Browser</a>
+                </h1>
+                <a class="navbar-brand" href="#">Static Data</a>
+                <a class="navbar-brand" href="#">/r/leagueoflegends</a>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="input-group">
+                        <button class="btn btn-default dropdown-toggle">Server
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                        </ul>
+                        <div class="input-group-btn">
+                            <button class="btn btn-default">Action</button>
+                            <input type="text" class="form-control" placeholder="Search Summoner"/>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </header>
+        <main></main>
+        <footer></footer>
+
+        <script type="text/javascript" src="/js/libs/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="/js/libs/ember-1.7.0.js"></script>
+        <script type="text/javascript" src="/js/libs/handlebars-1.1.2.js"></script>
+        <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="js/plugins.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
